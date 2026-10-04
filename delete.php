@@ -1,6 +1,5 @@
 <?php
 
-
 $path = 'arquivos/';
 
 if (!is_dir($path)) {
