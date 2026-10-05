@@ -23,4 +23,5 @@ $arquivos = array_diff(scandir($path), ['.', '..']);
 <?php foreach ($arquivos as $arquivo) { ?>
     <h3><?= $arquivo ?></h3>
     <a href="delete.php?arq=<?= $arquivo ?>">Deletar</a>
+    <a href="update.php?arq=<?= $arquivo ?>">Escrever</a>
 <?php } ?>

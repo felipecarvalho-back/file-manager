@@ -5,6 +5,7 @@ $path = 'arquivos/';
 if (!is_dir($path)) {
     mkdir($path, 0755, true);
 }
+
 $nomeArquivo = str_replace(' ', '-', $_POST['nome']);
 $nomeArquivo .= '.txt';
 
